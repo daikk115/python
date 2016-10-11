@@ -1,0 +1,12 @@
+language: python
+python:
+  - "2.7"
+  - "3.4"
+script: echo "Dang Van Dai"
+notifications:
+  email:
+    recipients:
+      - daikk115@gmail.com
+    on_success: change
+    on_failure: always
+
