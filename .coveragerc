@@ -1,0 +1,9 @@
+[run]
+branch = True
+source = .
+omit = tests/*
+
+[report]
+fail_under = 70
+ignore_errors = True
+precision = 3
