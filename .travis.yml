@@ -10,3 +10,5 @@ notifications:
     on_success: change
     on_failure: always
 
+after_success:
+  - coveralls
