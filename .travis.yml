@@ -4,9 +4,7 @@ python:
   - "3.4"
 install:
 - pip install coveralls
-script: 
-- echo "Dang Van Dai"
-- coverage run --source=. -m unittest discover -s tests/
+script: coverage run --source=. -m unittest discover -s tests/
 notifications:
   email:
     recipients:
