@@ -43,3 +43,5 @@ for path in list_paths:
     result = merge_dict(result, function(path))
 
 pp.pprint(result)
+print("Done!")
+
